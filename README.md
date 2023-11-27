@@ -1,10 +1,10 @@
 # boyfriendnibluefairy.github.io
 
-### Privacy Policy for Papyrus App**
+### Privacy Policy for Papyrus App
 ```
 Last updated: 27 November 2023
 
-Papyrus is developed and owned by Gilbert M. Oca. This Privacy Policy is designed to inform you about our practices regarding the collection, use, and disclosure of information that you may provide when using our mobile application.
+Papyrus Free is developed and owned by Gilbert M. Oca. This Privacy Policy is designed to inform you about our practices regarding the collection, use, and disclosure of information that you may provide when using our mobile application.
 
 1. Information We Don't Collect
 Papyrus does not collect any private data from its users. We prioritize user privacy and aim to create a secure and enjoyable experience without compromising personal information.
