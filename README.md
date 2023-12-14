@@ -7,7 +7,7 @@
 
 * [Link to Papyrus Offline Privacy Policy](https://github.com/boyfriendnibluefairy/boyfriendnibluefairy.github.io/blob/main/Papyrus_Offline_-_Privacy_Policy.md)
 
-![Papyrus Offline Sample User Interface](https://github.com/boyfriendnibluefairy/boyfriendnibluefairy.github.io/blob/main/assets/images/Papyrus_Offline_screenshots.png)
+<img width="360" alt="Papyrus_Offline_screenshots" src="https://github.com/boyfriendnibluefairy/boyfriendnibluefairy.github.io/assets/30497886/10d21659-6867-4152-864e-082d4e5b054d">  
 
 * [Step-by-step tutorial on how to use Papyrus Offline](https://www.youtube.com/watch?v=wF4g5tHLlkc)  
 
@@ -25,9 +25,7 @@
 Step-By-Step Tutorial:  
 https://youtu.be/bz9cDEuyxx0
 
-![openphoton sample features](https://github.com/boyfriendnibluefairy/boyfriendnibluefairy.github.io/blob/main/assets/images/openphoton_features.png)
-
-This README.md file is under construction. But the steps presented below is sufficient for you to simulate light propagation from a laser, passing through lens, and passing through your test object. More features will be added soon.  
+![openphoton_features](https://github.com/boyfriendnibluefairy/boyfriendnibluefairy.github.io/assets/30497886/08b756a9-1407-4315-b0b1-3c714b3256c0)  
 
 ### FEATURES:  
  - Light propagation using Rayleigh-Sommerfeld Diffraction Integral
@@ -35,6 +33,7 @@ This README.md file is under construction. But the steps presented below is suff
  - Simulation of converging lens and diverging Lens
  - Simulation of amplitude-based test object using SLM
 
+This README.md file is under construction. But the steps presented below is sufficient for you to simulate light propagation from a laser, passing through lens, and passing through your test object. More features will be added soon.  
 
 ## Examples of How To Use (Alpha Version)
 
