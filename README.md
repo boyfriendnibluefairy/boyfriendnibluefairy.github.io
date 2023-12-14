@@ -1,29 +1,111 @@
-# boyfriendnibluefairy.github.io
+<h1 align="center">Apps, Software, & Libraries</h1>
 
-### Privacy Policy for Papyrus App
+******
+
+# Papyrus Offline  
+**Papyrus Offline** is a free paperless registration app that can be used in recording the attendance of participants in conferences, seminars, symposiums, talks, etc.
+
+* [Link to Papyrus Offline Privacy Policy](https://github.com/boyfriendnibluefairy/boyfriendnibluefairy.github.io/blob/main/Papyrus_Offline_-_Privacy_Policy.md)
+
+![Papyrus Offline Sample User Interface](https://github.com/boyfriendnibluefairy/boyfriendnibluefairy.github.io/blob/main/assets/images/Papyrus_Offline_screenshots.png)
+
+* [Step-by-step tutorial on how to use Papyrus Offline](https://www.youtube.com/watch?v=wF4g5tHLlkc)  
+
+* [You may download the app in Apple Store](https://apps.apple.com/gr/app/papyrus-offline/id6473137300?platform=iphone)  
+  
+  
+  
+******
+  
+  
+  
+# openphoton  
+**openphoton** is a free python package for optical wave propagation  
+
+Step-By-Step Tutorial:  
+https://youtu.be/bz9cDEuyxx0
+
+![openphoton sample features](https://github.com/boyfriendnibluefairy/boyfriendnibluefairy.github.io/blob/main/assets/images/openphoton_features.png)
+
+This README.md file is under construction. But the steps presented below is sufficient for you to simulate light propagation from a laser, passing through lens, and passing through your test object. More features will be added soon.  
+
+### FEATURES:  
+ - Light propagation using Rayleigh-Sommerfeld Diffraction Integral
+ - Includes Fresnel Approximation and Fraunhofer Approximation
+ - Simulation of converging lens and diverging Lens
+ - Simulation of amplitude-based test object using SLM
+
+
+## Examples of How To Use (Alpha Version)
+
+Add openphoton to your operating system or python virtual environment
+
+```python
+pip install openphoton
 ```
-Last updated: 27 November 2023
 
-Papyrus Free is developed and owned by Gilbert M. Oca. This Privacy Policy is designed to inform you about our practices regarding the collection, use, and disclosure of information that you may provide when using our mobile application.
+Create a laser beam
+```python
+import openphoton as op
 
-1. Information We Don't Collect
-Papyrus does not collect any private data from its users. We prioritize user privacy and aim to create a secure and enjoyable experience without compromising personal information.
-
-2. App Download and Usage:
-2.1 If the app is offered as a free download on Google Play Store or Apple App Store, users can freely download and install the application without any associated charges.
-2.2 If the app is a paid application, users are required to purchase and download it from the respective app stores (Google Play Store for Android devices, Apple App Store for iOS devices).
-
-3. In-App Purchases:
-If the app offers in-app purchases, users may incur charges for additional features or content. These charges will be clearly communicated within the app, and users have the choice to make these purchases or not.
-
-4. Copyright and License:
-4.1 The app is the intellectual property of Gilbert M. Oca, and all rights are reserved. The app is protected by copyright laws.
-4.2 By default, the license of [Your App Name] has a resemblance with the MIT License. This means that users are granted permission to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, subject to the conditions specified in the MIT License.
-
-5. Changes to This Privacy Policy:
-We reserve the right to update our Privacy Policy at any time. Users will be notified of any changes through the app or on our website.
-
-6. Contact Information:
-6.1 If you have any questions or concerns about this Privacy Policy, please comment your concern on Google playstore or Apple Store.
-6.2 By downloading and using the app, you agree to the terms outlined in this Privacy Policy.
+# side length (m)
+# aperture radius (m)
+u0 = op.devices.laser_beam(
+    side_length=0.06,
+    aperture_radius=0.026)
 ```
+
+In order to forward propagate the wave field, you must choose between fresnel (near-field) approximation and
+fraunhoffer (far-field) approximation. To determine which approximation is best for your system, you have to calculate
+the Fresnel number F_N. If F_N = [1, +infinity], then use fresnel approximation. Otherwise, use fraunhoffer approximation.
+```python
+# uo = wave field to propagate
+# L = source plane side length (m)
+# wavelength = wavelength of light (m)
+# z = propagation distance (m)
+# u1 = resulting wave field after propagation
+u1 = op.rayleigh_sommerfeld.fresnel_approx(
+    u0, L, wavelength, z)
+```
+
+Apply converging lens or diverging lens on the laser beam
+```python
+import numpy as np
+
+# u1 = wave field before the lens
+# L = u1 side length (m)
+# wavelength of light (m)
+# f_length = lens focal length (m)
+# u2 = wave field after the lens
+u2 = np.multiply(u1, op.lenses.converging_lens(u1,L,wavelength,f_length))
+```
+
+Apply SLM or test object on the laser beam
+```python
+import numpy as np
+
+# filename = image of test object file name
+filename : str = "USAF_1951_1024p.png"
+
+# SLM_amplitude() converts RGB image into numpy array
+# pixel_size = number of pixels of image, ideally this must be the same with u1
+test_object = op.devices.SLM_amplitude(filename, pixel_size)
+
+# u1 = wave field before the test object
+# L = u1 side length (m)
+# wavelength of light (m)
+# u2 = wave field after the test object
+u2 = np.multiply(u1, test_object)
+```
+
+### References:
+ - Shen, Fabin, and Anbo Wang. "Fast-Fourier-transform based numerical integration method for the Rayleigh-Sommerfeld diffraction formula." Applied optics 45, no. 6 (2006): 1102-1110.
+ - Schmidt, Jason D. "Numerical simulation of optical wave propagation with examples in MATLAB." SPIE (2010).
+ - Voelz, David G., and Michael C. Roggemann. "Digital simulation of scalar optical diffraction: revisiting chirp function sampling criteria and consequences." Applied optics 48, no. 32 (2009): 6132-6142.
+  
+  
+
+******
+
+
+  
