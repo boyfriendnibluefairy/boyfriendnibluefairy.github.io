@@ -4,7 +4,7 @@ Last updated: 27 November 2023
 
 Papyrus Offline is developed and owned by Gilbert M. Oca. This Privacy Policy is designed to inform you about our practices regarding the collection, use, and disclosure of information that you may provide when using our mobile application.
 
-**1. <span style="color:blue">Information We Don't Collect</span>**  
+**1.** <span style="color:blue">**Information We Don't Collect**</span>  
 Papyrus Offline does not collect any private data from its users. We prioritize user privacy and aim to create a secure and enjoyable experience without compromising personal information.
 
 **2. <span style="color:blue">App Download and Usage</span>**  
