@@ -1,4 +1,4 @@
-###### Privacy Policy for Papyrus Offline
+# Privacy Policy for Papyrus Offline
 
 Last updated: 27 November 2023
 
