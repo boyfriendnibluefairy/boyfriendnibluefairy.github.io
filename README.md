@@ -22,8 +22,7 @@
 # openphoton  
 **openphoton** is a free python package for optical wave propagation  
 
-Step-By-Step Tutorial:  
-https://youtu.be/bz9cDEuyxx0
+* [Step-by-step tutorial on how to use openphoton](https://youtu.be/bz9cDEuyxx0)  
 
 ![openphoton_features](https://github.com/boyfriendnibluefairy/boyfriendnibluefairy.github.io/assets/30497886/08b756a9-1407-4315-b0b1-3c714b3256c0)  
 
