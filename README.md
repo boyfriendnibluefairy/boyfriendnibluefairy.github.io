@@ -2,6 +2,32 @@
 
 ******
 
+# Cat Radar
+**Cat Radar** is a free app that utilizes Machine Learning to detect cats. Powered by Apple's CoreML, the app works without internet connection and does not collect user data.
+
+<img width="907" alt="cat_radar" src="https://github.com/boyfriendnibluefairy/boyfriendnibluefairy.github.io/assets/30497886/def71c96-002d-4923-aa15-d2152b4b9327">
+
+*[You may download the app in App Store](https://apps.apple.com/us/app/cat-radar/id6476641987)
+
+
+
+******
+
+
+
+# Westeros Map
+**Westeros Map** is a free companion app for those who read George R.R. Martin books and for those who watch Game of Thrones, House of the Dragon. It has the combined power of UIKit and SwiftUI so that user can explore Westeros and Essos with awesome animation and dynamic search list.
+
+<img width="905" alt="westeros_map" src="https://github.com/boyfriendnibluefairy/boyfriendnibluefairy.github.io/assets/30497886/7be7257a-b1b0-4602-aa70-a3272e1aebd2">
+
+* [You may download the app in App Store](https://apps.apple.com/us/app/westeros-map/id6476431991)
+
+
+
+******
+
+
+
 # Papyrus Offline  
 **Papyrus Offline** is a free paperless registration app that can be used in recording the attendance of participants in conferences, seminars, symposiums, talks, etc.
 
