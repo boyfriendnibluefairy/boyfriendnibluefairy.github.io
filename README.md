@@ -16,7 +16,7 @@
 
 
 # Westeros Map
-**Westeros Map** is a free companion app for those who read George R.R. Martin books and for those who watch Game of Thrones, House of the Dragon. It has the combined power of UIKit and SwiftUI so that user can explore Westeros and Essos with awesome animation and dynamic search list.
+**Westeros Map** is a free companion app for those who read George R.R. Martin books and for those who watch Game of Thrones or House of the Dragon. It has the combined power of UIKit and SwiftUI so that user can explore Westeros and Essos with awesome animation and dynamic search list.
 
 <img width="905" alt="westeros_map" src="https://github.com/boyfriendnibluefairy/boyfriendnibluefairy.github.io/assets/30497886/7be7257a-b1b0-4602-aa70-a3272e1aebd2">
 
