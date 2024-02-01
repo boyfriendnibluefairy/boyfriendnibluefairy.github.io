@@ -37,7 +37,7 @@
 
 * [Step-by-step tutorial on how to use Papyrus Offline](https://www.youtube.com/watch?v=wF4g5tHLlkc)  
 
-* [You may download the app in Apple Store](https://apps.apple.com/gr/app/papyrus-offline/id6473137300?platform=iphone)  
+* [You may download the app in App Store](https://apps.apple.com/gr/app/papyrus-offline/id6473137300?platform=iphone)  
   
   
   
