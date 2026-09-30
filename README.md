@@ -16,7 +16,9 @@ Track the movies you watch, build your personal film diary, write reviews and fa
 
 <td width="25%" valign="top">
 
-  ### Project Status
+### Project Status ###
+
+
 The application has been submitted for public distribution through the Apple App Store.
 
 Current App Store Connect status: Waiting for Review
@@ -24,7 +26,8 @@ Current App Store Connect status: Waiting for Review
   
 <td width="25%" valign="top">
 
-  ### 📱 iOS Development
+  ### 📱 iOS Development ###
+  
 - Swift
 - SwiftUI
 - MVVM Architecture
@@ -36,7 +39,8 @@ Current App Store Connect status: Waiting for Review
 
 <td width="25%" valign="top">
 
-  ### ☁️ Backend & Cloud
+  ### ☁️ Backend & Cloud ###
+  
 - PHP
 - MySQL
 - REST API Development
