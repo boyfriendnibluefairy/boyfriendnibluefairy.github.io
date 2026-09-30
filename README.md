@@ -2,6 +2,58 @@
 
 ******
 
+# fsociety
+
+**fsociety** is a free movie diary, movie tracker, and film review app made for people who love movies.
+Track the movies you watch, build your personal film diary, write reviews and fan theories, and discover spoiler-free movie opinions from other film fans.
+
+<table>
+<tr>
+
+<td width="25%" valign="top">
+<img width="244" height="245" alt="fsociety iOS app is still in review" src="https://github.com/user-attachments/assets/c2cd7a7b-3d27-488b-ab31-1e41f0318db0" />
+</td>
+
+<td width="25%" valign="top">
+
+  ### Project Status
+The application has been submitted for public distribution through the Apple App Store.
+
+Current App Store Connect status: Waiting for Review
+</td>
+  
+<td width="25%" valign="top">
+
+  ### 📱 iOS Development
+- Swift
+- SwiftUI
+- MVVM Architecture
+- REST API Integration
+- URLSession
+- Keychain
+- App Store Connect
+</td>
+
+<td width="25%" valign="top">
+
+  ### ☁️ Backend & Cloud
+- PHP
+- MySQL
+- REST API Development
+- AWS Lightsail
+- Apache
+- Linux
+- SSH
+- HTTPS / TLS
+</td>
+</tr>
+</table>
+
+
+  <img width="100%" alt="fsociety app previews_1080p" src="https://github.com/user-attachments/assets/db77c656-be10-44cd-bee7-81a38a1c724d" />
+
+******
+
 # Cat Radar
 **Cat Radar** is a free app that utilizes Machine Learning to detect cats. Powered by Apple's CoreML, the app works without internet connection and does not collect user data.
 
