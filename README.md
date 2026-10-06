@@ -10,26 +10,20 @@ Track the movies you watch, build your personal film diary, write reviews and fa
 <table>
 <tr>
 
-<td width="25%" valign="top">
-<img width="244" height="245" alt="fsociety iOS app is still in review" src="https://github.com/user-attachments/assets/c2cd7a7b-3d27-488b-ab31-1e41f0318db0" />
-</td>
-
-<td width="25%" valign="top">
+<td width="33.33%" valign="top">
 
 **Project Status**
 
 
-The application has been submitted for public distribution through the Apple App Store.
+fsociety is now freely available in the Apple App Store.
 
-Current App Store Connect status: Waiting for Review
 </td>
   
-<td width="25%" valign="top">
+<td width="33.33%" valign="top">
 
 📱 **iOS Development**
   
-- Swift
-- SwiftUI
+- Swift and SwiftUI
 - MVVM Architecture
 - REST API Integration
 - URLSession
@@ -37,16 +31,14 @@ Current App Store Connect status: Waiting for Review
 - App Store Connect
 </td>
 
-<td width="25%" valign="top">
+<td width="33.33%" valign="top">
 
   ☁️ **Backend & Cloud**
   
-- PHP
-- MySQL
-- REST API Development
-- AWS Lightsail
+- PHP and MySQL
+- REST API
+- AWS Lightsail with Linux installed
 - Apache
-- Linux
 - SSH
 - HTTPS / TLS
 </td>
@@ -55,6 +47,9 @@ Current App Store Connect status: Waiting for Review
 
 
   <img width="100%" alt="fsociety app previews_1080p" src="https://github.com/user-attachments/assets/db77c656-be10-44cd-bee7-81a38a1c724d" />
+
+  <img width="853" height="639" alt="fsociety in app store - compressed" src="https://github.com/user-attachments/assets/3ec5c287-7ad6-40f5-a859-941da19fc513" />
+
 
 ******
 
